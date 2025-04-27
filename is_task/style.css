@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box ;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: xx-large;
+}
+body{
+    background-color: rgb(244, 247, 255);
+}
+.search-container{position: relative;}
+#search-input{width: 0;padding: 0px;font-size: 20px;border:1px solid #ccc ;border-radius: 20px;transition:width 0.4s ease;  opacity: 0;}
+#search.btn{background: none;border: none;cursor: pointer;position: absolute;top: 50%;left: 0;transform: translateY(-50%);}
+.search-container.active
+#search-input{width: 200px;opacity: 1;padding-left: 32px;}
+.d1{
+    position: relative;
+    height: 80px;
+display: flex;
+align-items:center;
+margin-top: 40px;
+}
+header{
+    margin-top:100px ;
+}
+.logocontainer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.d1 img{
+height:250px;
+margin: 0 auto;
+display: block;
+border-radius: 50%;
+}
+.links{
+    position: relative;
+    display: flex;
+margin-left: auto;
+margin-right: 20px;
+}
+.links a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: larger;
+}
+.navi{
+    height: 80px;
+    margin-top: 90px;
+    position: relative;
+}
+.d2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.d2 a{
+padding: 20px;
+text-decoration: none;
+font-size: xx-large;
+}
+
+  h1{
+text-align: center;
+margin: 20px;
+  }
+.s1{
+    padding: 20px;
+}
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 250px;
+    margin: 10px;
+}
+.item img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.butt{
+text-align: center;    
+
+}
+.butt button{
+    font-size: x-large;
+    padding: 20px;
+background-color: white;
+border-radius: 50%;
+}
+.butt button:hover{
+    background-color: blueviolet;
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+
+}
+.contents{
+    width: 200px;
+    margin: 20px;
+}
+.contents img{
+    height: auto;
+    display: block;
+}
+p{
+    font-size: small;
+}
+.foot{
+    height: 40dvh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 40px;
+}
+.foot span{
+    margin-left: 30px;
+}
+.logos img{
+    width: 200px;
+    margin-left:30px ;
+}
+.Abo{width: 300px;
+    margin-left: 100px;
+}
+
+

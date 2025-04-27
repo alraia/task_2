@@ -1,0 +1,72 @@
+.content {
+    border: 4px solid #cceeff;
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  body {
+    background-color: #f8fcff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    color: #3399cc;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0f0ff;
+  }
+  
+  .image-gallery img {
+    width: 120px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #e0f7ff;
+    box-shadow: 2px 2px 8px rgba(51, 153, 204, 0.15);
+  }
+  
+  ul {
+    background-color: #f0fbff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cceeff;
+    list-style-type: disc;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 20px;
+    color: #ff9933;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .buy-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #66cc99;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(102, 204, 153, 0.4);
+  }
+  
+  .buy-btn:hover {
+    background-color: #55b88a;
+    transform: scale(1.05);
+  }
