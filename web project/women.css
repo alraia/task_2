@@ -1,0 +1,83 @@
+.content {
+    border: 2px solid rgba(255, 182, 193, 0.4);
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+   background: rgba(255, 240, 247, 0.15);
+   backdrop-filter: blur(15px);
+   -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8 32px rgba(0,0,0,0.25);
+    color: white;
+  }
+  body {
+    background: url('womenbackground (2).jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+    background-position: center;
+  }
+  
+  h2 {
+    color: #ffb6c1;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    
+  }
+  
+  .im {
+    width: 220px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #ffe3f0;
+    box-shadow: 0px 4px 12px rgba(255, 182, 193, 0.3);
+    transition: transform 0.3 ease;;
+  }
+  
+  ul {
+    background-color: rgba(255, 240, 247, 0.3);
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(248, 204, 224, 0.3);
+    list-style-type: disc;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .price {
+    font-size: 22px;
+    color: #ffddee;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .buy-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4);
+  }
+  
+  .buy-btn:hover {
+    background-color: #e055a3;
+    transform: scale(1.05);
+  }
+  .im:hover{
+    scale: (1.05);
+  }
